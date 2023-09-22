@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduwork</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .container {
+            background-image: url("images/bg-hero.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .shape {
+            background-color: #fbb12f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .btn {
+            justify-content: space-around;
+            display: flex;
+
+        }
+
+        .text {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            outline-color: black;
+            outline-width: 5px;
+            border-color: black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="width: 60%;">
+            <a class="navbar-brand" href="#">
+                <img src="images/favicon.png" alt="Logo" width="100px" class="d-inline-block">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav justify-content-center">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Kelas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Private Mentoring</a></li>
+                            <li><a class="dropdown-item" href="#">Bootcamp</a></li>
+                            <li><a class="dropdown-item" href="#">Webinar</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item active" aria-current="page">
+                        <a class="nav-link" href="#">Hubungi Admin</a>
+                    </li>
+                </div>
+            </ul>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Member</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Account</a></li>
+                        <li><a class="dropdown-item" href="#">My Class</a></li>
+                        <li><a class="dropdown-item" href="#">Logout else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="width: 70%;">
+        <div class="container">
+            <div class="row mb-2 py-5">
+                <div class="col-md-6 allign-text-justify ">
+                    <!-- <div class="col-2">
+                        <div class="shape">
+                            <div class="circle">
+                            1
+                            </div>
+                        </div>
+
+                    </div> -->
+                    <div class="col-10">
+                        <h1 style="font-weight: bold;">Pelatihan & <br>Penyaluran Kerja</h1>
+                        <br>
+                        <h6>Daftar, Get Free Class!</h6>
+                        <p>Join Komunitas belajar, dapatkan akses kelas & materi gratis</p>
+                        <br>
+                        <h6>Belajar Intensif</h6>
+                        <p>Belajar didampingi virtual assistant & mentor expert via grup & 1-on-1 zoom mentoring</p>
+                        <br>
+                        <h6>Penyaluran Kerja Dijamin</h6>
+                        <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+                    </div>
+                    <div class="btn">
+                        <button type="button" class="btn btn-primary btn-lg">Daftar Gratis</button>
+                        <button type="button" class="btn btn-secondary btn-lg">Konsultasi Dulu</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="images/t-aniq.png" alt="" class="img-fluid">
+                    <div class="text">
+                        <p>"Sebelumnya saya tidak punya background IT karena jurusan Kimia, setelah saya belajar coding
+                            di Eduwork, Saya berhasil diterima kerja di Tokopedia sebagai Programer."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
