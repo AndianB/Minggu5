@@ -6,46 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduwork</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 
-    <style>
-        .container {
-            background-image: url("images/bg-hero.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
-        .shape {
-            background-color: #fbb12f;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .circle {
-            background-color: white;
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-        }
-
-        .btn {
-            justify-content: space-around;
-            display: flex;
-
-        }
-
-        .text {
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            outline-color: black;
-            outline-width: 5px;
-            border-color: black;
-            border-radius: 10px;
-        }
-    </style>
 </head>
 
 <body>
@@ -104,39 +66,109 @@
     </nav>
 
     <div class="container-fluid" style="width: 70%;">
-        <div class="container">
+        <div class="bg">
             <div class="row mb-2 py-5">
-                <div class="col-md-6 allign-text-justify ">
-                    <!-- <div class="col-2">
-                        <div class="shape">
-                            <div class="circle">
-                            1
+                <div class="col-md-6 " style="padding: 30px;">
+                    <h1 style="font-weight: bold;">Pelatihan & <br>Penyaluran Kerja</h1>
+                    <br>
+                    <div class="container">
+
+                        <div class="step completed">
+                            <div class="v-stepper">
+                                <div class="circle" style="padding-top: 5px;">
+                                    <p style="text-align: center; color: white;">1</p>
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="content">
+                                <h6>Daftar, Get Free Class!</h6>
+                                <p>Join Komunitas belajar, dapatkan akses kelas & materi gratis</p>
                             </div>
                         </div>
 
+                        <div class="step completed">
+                            <div class="v-stepper">
+                                <div class="circle" style="padding-top: 5px;">
+                                    <p style="text-align: center; color: white;">2</p>
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="content">
+                                <h6>Belajar Intensif</h6>
+                                <p>Belajar didampingi virtual assistant & mentor expert via grup & 1-on-1 zoom mentoring
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="step completed">
+                            <div class="v-stepper">
+                                <div class="circle" style="padding-top: 5px;">
+                                    <p style="text-align: center; color: white;">3</p>
+
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="content">
+                                <h6>Penyaluran Kerja Dijamin</h6>
+                                <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- <div class="container">
+                        <div class="step completed">
+                            <div class="v-stepper">
+                                <div class="circle"></div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="content">
+                                <h6>Daftar, Get Free Class!</h6>
+                                <p>Join Komunitas belajar, dapatkan akses kelas & materi gratis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="step completed">
+                            <div class="v-stepper">
+                                <div class="circle"></div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="content">
+                                <h6>Daftar, Get Free Class!</h6>
+                                <p>Join Komunitas belajar, dapatkan akses kelas & materi gratis</p>
+                            </div>
+                        </div>
                     </div> -->
-                    <div class="col-10">
-                        <h1 style="font-weight: bold;">Pelatihan & <br>Penyaluran Kerja</h1>
-                        <br>
-                        <h6>Daftar, Get Free Class!</h6>
+                    <!-- <h6>Daftar, Get Free Class!</h6>
                         <p>Join Komunitas belajar, dapatkan akses kelas & materi gratis</p>
                         <br>
                         <h6>Belajar Intensif</h6>
                         <p>Belajar didampingi virtual assistant & mentor expert via grup & 1-on-1 zoom mentoring</p>
                         <br>
                         <h6>Penyaluran Kerja Dijamin</h6>
-                        <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
-                    </div>
-                    <div class="btn">
-                        <button type="button" class="btn btn-primary btn-lg">Daftar Gratis</button>
+                        <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p> -->
+                    
+                    <div class="group">
+                        <button type="button" class="btn btn-primary btn-lg">Daftar Gratis
+                            <div class="free"><p style="font-size: 15px;">free</p></div>
+                        </button>
                         <button type="button" class="btn btn-secondary btn-lg">Konsultasi Dulu</button>
                     </div>
-
+                    <br>
+                    <p style="text-align: center;"><b>75,680</b> Students & <b>165</b> Mentors has joined!</p>
+        
                 </div>
-                <div class="col-md-6">
+
+                <div class="col-md-6" >
                     <img src="images/t-aniq.png" alt="" class="img-fluid">
-                    <div class="text">
-                        <p>"Sebelumnya saya tidak punya background IT karena jurusan Kimia, setelah saya belajar coding
+                    <div class="text" style="width: 90%;">
+                        <p style="padding: 5px;">"Sebelumnya saya tidak punya background IT karena jurusan Kimia, setelah saya belajar coding
                             di Eduwork, Saya berhasil diterima kerja di Tokopedia sebagai Programer."</p>
                     </div>
                 </div>
